@@ -1,0 +1,250 @@
+body {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    background: url(images/bg-curvy-mobile.svg )no-repeat hsl(218, 28%, 13%);
+}
+
+main {}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 30px 10px 5%;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-right: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    width: 80%;
+}
+
+input{
+    padding: 10px 40px 10px 20px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+
+/****************************Class Selectors*******************************/
+
+.logo {
+    max-width: 30%;
+}
+
+.intro-img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.dis-text {
+    width: 70%;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.get-start {
+    text-decoration: none;
+    color: white;
+    padding: 10px 60px;
+    background-color: #3CADCE;
+    border-radius: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.feature-item {
+    margin-bottom: 80px;
+}
+
+.feature-para {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.last-para {
+    width: 70%;
+}
+
+.stay-productive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productive-img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+.article-para {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.article-para a {
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: solid 1px;
+}
+
+.reviews{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/bg-quotes.png) no-repeat;
+    background-position: 10% 0%;
+    padding-top: 40px;
+}
+
+
+.comment-box{
+    background-color: hsl(219, 30%, 18%);
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.comment{
+    margin: 0px;
+    text-align: left;
+    line-height: 2;
+    font-size: 13px;
+    width: 85%;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.details{
+    text-align: left;
+    margin: 0px 10px;
+}
+.work{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.profilename{
+    margin-bottom: 0;
+}
+
+.signup{
+    background-color: hsl(217, 28%, 15%);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: 150px
+}
+.signup-para{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.signup a{
+    padding: 10px 50px;
+    background-color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.footer-img{
+    margin-bottom: 25px;
+    padding-left: 10%;
+}
+
+.address{
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+.footer-detail{
+    width: 300px;
+/*    margin-left: 20px;*/
+    margin-top: 0px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.small-icon{
+    padding-left: 30px;
+}
+
+.about-us{
+    margin-bottom: 25px;
+}
+
+.contacts{
+    margin-bottom: 40px;
+}
+
+
+
