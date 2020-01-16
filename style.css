@@ -38,24 +38,28 @@ h1 {
     width: 80%;
 }
 
-input{
+input {
     padding: 10px 40px 10px 20px;
     border-radius: 50px;
 }
 
-footer{
+footer {
+    width: 100%;
     background-color: hsl(216, 53%, 9%);
     padding-top: 200px;
     text-align: left;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-ul{
+
+ul {
     list-style: none;
 }
-li{
+
+li {
     margin-bottom: 10px;
 }
 
@@ -138,7 +142,7 @@ li{
     border-bottom: solid 1px;
 }
 
-.reviews{
+.reviews {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -149,7 +153,7 @@ li{
 }
 
 
-.comment-box{
+.comment-box {
     background-color: hsl(219, 30%, 18%);
     width: 350px;
     height: 200px;
@@ -157,7 +161,7 @@ li{
     margin-bottom: 30px;
 }
 
-.comment{
+.comment {
     margin: 0px;
     text-align: left;
     line-height: 2;
@@ -167,30 +171,33 @@ li{
     padding-bottom: 0px;
 }
 
-.profile{
+.profile {
     display: flex;
 }
 
-.profile-img{
+.profile-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 25px;
     margin-top: 10px;
 }
-.details{
+
+.details {
     text-align: left;
     margin: 0px 10px;
 }
-.work{
+
+.work {
     font-size: 10px;
     margin-top: 5px;
 }
-.profilename{
+
+.profilename {
     margin-bottom: 0;
 }
 
-.signup{
+.signup {
     background-color: hsl(217, 28%, 15%);
     width: 70%;
     margin-left: auto;
@@ -203,12 +210,13 @@ li{
     position: relative;
     top: 150px
 }
-.signup-para{
+
+.signup-para {
     width: 85%;
     margin-bottom: 20px;
 }
 
-.signup a{
+.signup a {
     padding: 10px 50px;
     background-color: hsl(176, 68%, 64%);
     text-decoration: none;
@@ -216,35 +224,123 @@ li{
     border-radius: 50px;
     margin-top: 15px;
 }
-.footer-img{
+
+.footer-img {
     margin-bottom: 25px;
     padding-left: 10%;
 }
 
-.address{
+.address {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: baseline;
 }
-.footer-detail{
+
+.footer-detail {
     width: 300px;
-/*    margin-left: 20px;*/
+    /*    margin-left: 20px;*/
     margin-top: 0px;
     padding-left: 20px;
     line-height: 1.5;
 }
 
-.small-icon{
+.small-icon {
     padding-left: 30px;
 }
 
-.about-us{
+.about-us {
     margin-bottom: 25px;
 }
 
-.contacts{
+.contacts {
     margin-bottom: 40px;
 }
 
+a:hover {
+    background-color: aliceblue;
+    color: hsl(198, 60%, 50%);
+}
 
 
+/****************************Media Query Selectors*******************************/
+
+@media screen and (min-width: 600px) {
+    .intro-img {
+        max-width: 50%;
+    }
+
+    .dis-text {
+        width: 40%;
+        font-size: 21px;
+    }
+
+    .feature {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature-item {
+        width: 40%;
+    }
+    .productive-img{
+        max-width: 30%;
+    }
+    .stay-productive{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .article-para{
+        width: 60%;
+    }
+    .article-heading{
+        font-size: 30px;
+/*        min-width: 200px;*/
+    }
+    .reviews{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .comment{
+        min-width: 250px;
+    }
+    .signup{
+        padding: 20px 10px;
+        max-width: 60%;
+        max-width: 650px;
+    }
+    .signup h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .signup-para{
+        min-width: 90%;
+    }
+    .address-holder{
+/*        min-width: 70%;*/
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .footer-placement{
+        display: flex;
+        justify-content: center;
+    }
+    ul{
+        margin-top: 0;
+    }
+    li{
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 35px;
+        max-width: 40%;
+        min-width: 30%;
+        line-height: 2;
+    }
+}
